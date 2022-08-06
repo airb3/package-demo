@@ -1,0 +1,31 @@
+{
+  "name": "vue3",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.0",
+    "path": "^0.12.7",
+    "pinia": "^2.0.14",
+    "pinia-persistedstate-plugin": "^0.1.0",
+    "sass": "^1.51.0",
+    "unocss": "^0.33.5",
+    "unplugin-vue-components": "^0.19.5",
+    "vant": "^3.4.9",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13",
+    "aliyun-vod-upload": "https://ucode.vip/components/components/-/raw/master/aliyun-vod-upload-v1.0.3.tar",
+    "video-player": "https://ucode.vip/components/components/-/raw/master/video-player-v1.0.1.tar"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
