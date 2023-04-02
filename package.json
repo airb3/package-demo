@@ -20,7 +20,7 @@
     "vue": "^3.2.25",
     "vue-router": "^4.0.13",
     "aliyun-vod-upload": "https://ucode.vip/components/components/-/raw/master/aliyun-vod-upload-v1.0.3.tar",
-    "video-player": "https://ucode.vip/components/components/-/raw/master/video-player-v1.0.1.tar"
+    "video-player": "https://ucode.vip/components/components/-/raw/master/video-player-v1.0.2.tar"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
