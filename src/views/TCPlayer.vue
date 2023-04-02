@@ -62,7 +62,7 @@ function getVideoResolution() {
     message.VideoResolution = vd.value.tcPlayer.videoWidth() + ' * ' + vd.value.tcPlayer.videoHeight()
 }
 
-const source = ref(decodeURIComponent(proxy.$route.query.url) || "https://1500005692.vod2.myqcloud.com/43843706vodtranscq1500005692/11814a36387702299186115471/video_10_2.m3u8")
+const source = ref(decodeURIComponent(proxy.$route.query.url || "") || "https://1500005692.vod2.myqcloud.com/43843706vodtranscq1500005692/11814a36387702299186115471/video_10_2.m3u8")
 
 
 const video_list = reactive([
