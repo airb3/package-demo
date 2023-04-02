@@ -61,8 +61,8 @@ function getVideoResolution() {
     console.log("获取分辨率", vd.value.tcPlayer.videoWidth() + ' * ' + vd.value.tcPlayer.videoHeight());
     message.VideoResolution = vd.value.tcPlayer.videoWidth() + ' * ' + vd.value.tcPlayer.videoHeight()
 }
-
-const source = ref(decodeURIComponent(proxy.$route.query.url || "") || "https://1500005692.vod2.myqcloud.com/43843706vodtranscq1500005692/11814a36387702299186115471/video_10_2.m3u8")
+const query = proxy.$route.query.url == undefined ? "" : decodeURIComponent(proxy.$route.query.url)
+const source = ref(query || "https://1500005692.vod2.myqcloud.com/43843706vodtranscq1500005692/11814a36387702299186115471/video_10_2.m3u8")
 
 
 const video_list = reactive([
